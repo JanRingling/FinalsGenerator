@@ -36,21 +36,21 @@ Ballroom and latin finals are composed of 5 dances each, with the WDSF specifyin
 
 The file listing the songs, list_songs.txt, needs to be written in a specific way. The two large dance types (Latin & Standard) need to be specified with a "." in front of them. Dances need to be written on a new line with a "+" in front of them; their names are hardcoded. Songs need to be written underneath their dances on a new line with no special symbol. The song name should be the full file name. When searching for an audio file, the generator does not consider the file type, so any audio files will be used. The general structure hence is:
 
-. Standard
-\+ Slow Waltz
-song_1
-\+ Tango
-song_2
-\+ Viennese Waltz
-...
-\+ Slowfox
-\+ Quickstep
-. Latin
-\+ Samba
-\+ Cha
-\+ Rumba
-\+ Paso Doble
-\+ Jive
+. Standard \
+\+ Slow Waltz \
+song_1 \
+\+ Tango \
+song_2 \
+\+ Viennese Waltz \
+... \
+\+ Slowfox \
+\+ Quickstep \
+. Latin \
+\+ Samba \
+\+ Cha \
+\+ Rumba \
+\+ Paso Doble \
+\+ Jive 
 
 Currently, there needs to be at least one audio file for any dance, otherwise the generator will fail. You can manually edit the notebook to remove one of the two dance types, or one of the dances (e.g. if you want to create a 3-song final for the D-Class).
 
