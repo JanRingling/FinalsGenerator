@@ -1,0 +1,23 @@
+# Environment variables - contains personal file paths
+.env
+.env.*
+
+# Personal song list with music preferences
+list_songs.txt
+
+# Output directories with generated files
+songs_out/
+finals_out/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
